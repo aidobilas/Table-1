@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Flex;
+    font-size: 20px;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 2px solid #F7C04A;
+}
+
+table th {
+    border: 2px solid #F7C04A;
+    background-color: #F7C04A;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 20px;
+}
+
+table td {
+    border: 2px solid rgb(215, 202, 19);
+    padding-left: 20px;
+    padding-right: 150px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th:hover {
+    background: rgb(224, 142, 19);
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgb(219, 155, 17);
+}
+
+tr:hover {
+    background: rgb(224, 142, 19);
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgb(219, 155, 17);
+}
+
+td:hover {
+    background: rgb(224, 142, 19);
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgb(219, 155, 17);
+}
+
+th:first-child {
+    text-align: center;   
+}
+
+tr:nth-of-type(2) td:nth-of-type(1) {
+    background: #273776;
+    color: white;
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+    background: #273776;
+    color: white;
+}
+tr:nth-of-type(2) td:nth-of-type(3) {
+    background: #273776;
+    color: white;
+}
+
+tr:nth-of-type(3) td:nth-of-type(1) {
+    background: #273776;
+    color: white;
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+    background: #273776;
+    color: white;
+}
+tr:nth-of-type(3) td:nth-of-type(3) {
+    background: #273776;
+    color: white;
+}
+
+tr:nth-of-type(4) td:nth-of-type(1) {
+    background: #273776;
+    color: white;
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+    background: #273776;
+    color: white;
+}
+tr:nth-of-type(4) td:nth-of-type(3) {
+    background: #273776;
+    color: white;
+}
+    
